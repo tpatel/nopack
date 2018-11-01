@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>No pack - a directory of stores where you can buy goods without packaging</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <head>
+    <title>No pack - a directory of stores where you can buy goods without packaging</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        color: #29335c;
+        background-color: #fcf7ed;
+      }
+      h1, h2 {
+        font-weight: 400;
+        margin: 0;
+        padding: 0.6em 0 0.3em 0;
+      }
+      h1 small {
+        font-size: 0.5em;
+      }
+      .row {
+        padding: 1em 2em;
+      }
+      a {
+        color:#db2b39;
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: 3px solid #db2b39;
+      }
+    </style>
+  </head>
   <body>
-    <h1>No pack</h1>
-    <h2>A directory of stores where you can buy goods without packaging</h2>
+    <header class="row">
+      <h1>No pack <small>A directory of stores where you can buy goods without packaging</small></h1>
+    </header>
 
-
-    <h2>About</h2>
-    <p>I'm <a href="https://twitter.com/thibpat">Thibaut</a> and I'm working on this project on my spare time. I feel like I have to do something to help fight climate change, so I'm trying to use my skills to do my part.</p>
-    <p>My personal mission is to <b>Accelerate the transition to a world without waste</b> and hopefully this project will help some consumers to switch to buying goods without packaging.</p>
+    <main class="row">
+      <h2>About</h2>
+      <p>I'm <a href="https://twitter.com/thibpat">Thibaut</a> and I'm working on this project on my spare time.</p>
+      <p>I feel like I have to do something to help fight climate change, so I'm trying to use my skills to do my part.</p>
+      <p>My personal mission is to <b>Accelerate the transition to a world without waste</b> and hopefully this project will help some consumers to switch to buying goods without packaging.</p>
+    </main>
   </body>
 </html>
